@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:stepUi="http://schemas.android.com/apk/res-auto"
+    tools:context=".main.MainActivity">
+
+    <mycimb.digital.cimbthai.com.base.customview.stepper.StepProgress
+        android:id="@+id/stepProgress"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        stepUi:itemMargins="5dp"
+        stepUi:indicator_mode="stepWithBar"
+        stepUi:selectedBarColor="#d82332"
+        android:layout_marginTop="20dp"
+        stepUi:unselectBarColor="#999999" />
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_below="@id/stepProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

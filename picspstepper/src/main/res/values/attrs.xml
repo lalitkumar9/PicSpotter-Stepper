@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepUi">
+        <attr name="unselect" format="reference|color" />
+        <attr name="selected" format="reference|color" />
+        <attr name="indicator_mode">
+            <enum name="indicators" value="0" />
+            <enum name="step" value="1" />
+            <enum name="stepWithBar" value="2" />
+        </attr>
+        <attr name="barHeight" format="integer" />
+        <attr name="itemMargins" format="dimension" />
+        <attr name="dotDefaultSize" format="dimension" />
+        <attr name="dotSelectedSize" format="dimension" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="unselectTextColor" format="color" />
+        <attr name="selectedBarColor" format="color" />
+        <attr name="unselectBarColor" format="color" />
+        <attr name="textSize" format="dimension" />
+
+        <attr name="stpi_stepCount" format="integer"/>
+        <attr name="stpi_animDuration" format="integer"/>
+
+        <attr name="stpi_circleColor" format="color"/>
+        <attr name="stpi_circleRadius" format="dimension"/>
+        <attr name="stpi_circleStrokeWidth" format="dimension"/>
+
+        <attr name="stpi_indicatorColor" format="color"/>
+        <attr name="stpi_indicatorRadius" format="dimension"/>
+
+        <attr name="stpi_lineColor" format="color"/>
+        <attr name="stpi_lineDoneColor" format="color"/>
+        <attr name="stpi_lineStrokeWidth" format="dimension"/>
+        <attr name="stpi_lineMargin" format="dimension"/>
+
+        <attr name="stpi_showDoneIcon" format="boolean"/>
+        <attr name="stpi_showStepNumberInstead" format="boolean"/>
+        <attr name="stpi_doneIconDrawable" format="reference"/>
+
+        <attr name="stpi_useBottomIndicator" format="boolean"/>
+        <attr name="stpi_useBottomIndicatorWithStepColors" format="boolean"/>
+        <attr name="stpi_bottomIndicatorHeight" format="dimension"/>
+        <attr name="stpi_bottomIndicatorWidth" format="dimension"/>
+        <attr name="stpi_bottomIndicatorMarginTop" format="dimension"/>
+
+        <attr name="stpi_stepsCircleColors" format="reference"/>
+        <attr name="stpi_stepsIndicatorColors" format="reference"/>
+
+        <attr name="stpi_labels" format="reference"/>
+        <attr name="stpi_showLabels" format="boolean"/>
+        <attr name="stpi_labelMarginTop" format="dimension"/>
+        <attr name="stpi_labelSize" format="dimension"/>
+        <attr name="stpi_labelColor" format="color"/>
+
+
+    </declare-styleable>
+
+    <declare-styleable name="StepView">
+        <attr name="sv_selectedCircleColor" format="color" />
+        <attr name="sv_selectedCircleRadius" format="dimension" />
+        <attr name="sv_selectedTextColor" format="color" />
+        <attr name="sv_selectedStepNumberColor" format="color" />
+        <attr name="sv_stepNumberTextSize" format="dimension" />
+        <attr name="sv_doneStepMarkColor" format="color" />
+        <attr name="sv_doneCircleColor" format="color" />
+        <attr name="sv_doneCircleRadius" format="dimension" />
+        <attr name="sv_doneTextColor" format="color" />
+        <attr name="sv_nextTextColor" format="color" />
+        <attr name="sv_nextStepLineColor" format="color" />
+        <attr name="sv_doneStepLineColor" format="color" />
+        <attr name="sv_stepPadding" format="dimension" />
+        <attr name="sv_textPadding" format="dimension" />
+        <attr name="sv_stepLineWidth" format="dimension" />
+        <attr name="sv_textSize" />
+        <attr name="sv_background" />
+        <attr name="sv_animationDuration" />
+        <attr name="sv_stepViewStyle" format="reference" />
+        <attr name="sv_animationType" format="enum">
+            <enum name="Line" value="0" />
+            <enum name="Circle" value="1" />
+            <enum name="All" value="2" />
+            <enum name="None" value="3" />
+        </attr>
+        <attr name="sv_stepsNumber" format="integer" />
+        <attr name="sv_steps" format="reference" />
+        <attr name="sv_typeface" format="reference" />
+        <attr name="sv_nextStepCircleEnabled" format="boolean" />
+        <attr name="sv_nextStepCircleColor" format="color" />
+    </declare-styleable>
+
+</resources>

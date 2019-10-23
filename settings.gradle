@@ -1,0 +1,2 @@
+include ':app', ':picspstepper'
+rootProject.name='PicSpotter-Stepper'
